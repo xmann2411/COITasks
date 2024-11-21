@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper Example</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="images/PictureOne.JPG" alt="Picture 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/PictureTwo.JPG" alt="Picture 2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/PictureThree.JPG" alt="Picture 3" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/PictureFour.JPG" alt="Picture 4" />
+        </div>
+      </div>
+
+      <!-- navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <button id="toggle-swiper" class="toggle-swiper-button">
+      Toggle Swiper
+    </button>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
